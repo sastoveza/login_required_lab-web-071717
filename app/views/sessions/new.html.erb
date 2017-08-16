@@ -1,0 +1,9 @@
+<h1>Enter your Username</h1>
+
+<%= form_tag login_path do %>
+
+	<label>Username:</label>
+	<%= text_field_tag :name %><br>
+	<%= submit_tag "Login" %>
+
+<% end %>
